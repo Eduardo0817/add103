@@ -1,0 +1,25 @@
+
+
+body{
+    background-color:burlywood;
+    color: rgb(0, 0, 0);
+    font-size:large;
+}
+
+.container{
+    width: 80%;
+    margin: 15px auto;
+}
+
+h1{
+    color: black;
+}
+
+header{
+    text-align: center;
+    font-family: fantasy;
+}
+
+div, header, main, footer{
+    border:2px solid orange ;
+}

@@ -25,7 +25,7 @@ h1{
 /* create styles for the p tag */
 
 img{
-    width: 60%;
+    width: 20%;
     display: block;
     margin: 10px auto; 
     /* this set of 3 commands centers. 10px is spacing top and bottom, auto is left and right*/
