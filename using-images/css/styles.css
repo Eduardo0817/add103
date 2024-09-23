@@ -53,26 +53,44 @@ h2 {
 }
 
 /* Placeholder for floating left, add your specific styles here */
-#float-left {
+#float-left img {
   /* Add floating left-specific styles here */
+  float: left;
+  margin: 20px;
+}
+#float-left {
+  color: aquamarine;
+  overflow: auto;
+  padding: 15px;
 }
 
 /* Placeholder for floating right, add your specific styles here */
-#float-right {
+#float-right img {
   /* Add floating right-specific styles here */
+  float: right;
+  margin: 20px;
 }
-
+#float-right {
+  color: bisque;
+  overflow: auto;
+}
 /* Placeholder for picture tag, add your specific styles here */
 #picture-tag {
-  /* Add picture tag-specific styles here */
+  margin: 20px;
+
+  /* sure tag-specific styles here */
+}
+#picture-tag img {
+  width: 250px;
 }
 
 /* Placeholder for linked image, add your specific styles here */
-#linked-image {
-  /* Add linked image-specific styles here */
+#linked-image img {
+  width: 250px;
 }
 
 /* Placeholder for image as a link, add your specific styles here */
-#img-as-link {
+#img-as-link img {
+  width: 250px;
   /* Add image as link-specific styles here */
 }

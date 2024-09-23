@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(255, 209, 209);
+  color: rgb(0, 0, 0);
+  font-size: medium;
+}
+
+.container {
+}
+
+#centered {
+  width: 40%;
+  margin: 20px;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+ul ul {
+  list-style-type: "\2605";
+}
+ol {
+  color: rgb(0, 0, 0);
+  font-size: medium;
+}
+
+dt {
+  color: black;
+}
+
+dd {
+  color: rgb(103, 122, 122);
+}
