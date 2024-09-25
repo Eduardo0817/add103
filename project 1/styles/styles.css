@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(0, 0, 0);
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+}
+.container {
+  width: 80%;
+  margin: 10px auto;
+  background-color: rgb(101, 158, 47);
+  padding: 30px;
+}
+
+h1,
+h2 {
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  text-align: center;
+}
+
+ul {
+  text-decoration: none;
+  margin-left: 30%;
+}
+
+ul a {
+  text-decoration: none;
+  line-height: 1.5;
+  font-size: large;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  margin-left: 30px;
+  color: crimson;
+  text-decoration: none;
+  padding: 10px 15px;
+  line-height: 3;
+  background-color: cadetblue;
+  border-radius: 20px;
+  border: 2px cadetblue;
+}
+
+nav a:hover {
+  color: cornflowerblue;
+  background: none;
+}
+
+.left {
+  float: left;
+  margin: 10px;
+}

@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(26, 88, 34);
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.container {
+  width: 80%;
+  margin: 10px auto;
+  background-color: rgb(214, 183, 155);
+  padding: 30px;
+}
+
+h1,
+h2 {
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  text-align: center;
+}
+
+ul {
+  text-decoration: none;
+  margin-left: 30%;
+}
+
+ul a {
+  text-decoration: none;
+  line-height: 1.5;
+  font-size: large;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  margin-left: 30px;
+  color: crimson;
+  text-decoration: none;
+  padding: 10px 15px;
+  line-height: 3;
+  background-color: cadetblue;
+  border-radius: 20px;
+  border: 2px cadetblue;
+}
+
+nav a.hover {
+  color: bisque;
+  background: #efefa4;
+}
