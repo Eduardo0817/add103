@@ -1,0 +1,59 @@
+body {
+  font-family: "Arial", sans-serif;
+  color: #333;
+  background-color: #f4f1eb;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for content */
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Heading style */
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #8c593b; /* Warm apple-stem brown */
+  margin-bottom: 20px;
+}
+
+/* Style for the featured image */
+.featured-image {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Paragraph text styling */
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #4f4f4f;
+  margin-bottom: 20px;
+}
+
+/* Styling for better readability */
+p:first-of-type {
+  margin-top: 0;
+}
+
+/* Add padding to container for better readability */
+.container {
+  padding: 30px;
+  background-color: #f9f7f3; /* Light beige to match the background of the image */
+}
+
+img {
+  width: 250px;
+}
