@@ -1,0 +1,16 @@
+Body {
+  background-color: bisque;
+  color: rgb(207, 83, 79);
+}
+
+iframe {
+  width: 90%;
+  height: 500px;
+  border: none;
+  overflow: hidden;
+  text-align: center;
+}
+h1 {
+  color: crimson;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
