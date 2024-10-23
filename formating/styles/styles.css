@@ -1,0 +1,49 @@
+body {
+  background: rgb(108, 241, 127);
+  background: linear-gradient(
+    90deg,
+    rgba(108, 241, 127, 1) 0%,
+    rgba(47, 142, 112, 1) 26%,
+    rgba(50, 241, 84, 1) 100%
+  );
+}
+h2 {
+  text-shadow: 15px 2px 6px white;
+  white-space: nowrap;
+  width: 225px;
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+p {
+  float: left;
+  color: aliceblue;
+  border-radius: 15px;
+  background: #000000;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+  outline: 5px dotted #ffffff;
+}
+
+.ploob {
+  float: left;
+  color: aliceblue;
+  border-radius: 15px;
+  background: #1d1b1b;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+  outline: 5px dotted #ffffff;
+}
+
+.pleeb {
+  color: aliceblue;
+  border-radius: 15px;
+  background: #443e3e;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+  outline: 5px dotted #ffffff;
+}
