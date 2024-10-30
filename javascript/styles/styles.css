@@ -1,0 +1,130 @@
+:root {
+  --dark-Primary: #388e3c;
+  --light-primary: #c8e6c9;
+  --primary: #4caf50;
+  --light_text: #fffff;
+  --accent: #8bc34a9;
+  --dark_text: #212121;
+  --head_font: Gaegu;
+  --p_font: sofadi-one;
+}
+
+/*
+dark primary= #222226
+dark secondary= #8C7737
+background = #F2D49B
+medium primary = #8C625E
+medium primary = #D5D2D9
+light text= white
+dark text= black
+*/
+
+.sofadi-one-regular,
+p {
+  font-family: var(--p_font);
+  color: var(--light_text);
+}
+.gaegu-regular,
+h1,
+h2,
+h3 {
+  font-family: var(--head_font);
+  color: var(--dark_text);
+}
+header {
+  color: var(--dark-Primary);
+  border: 2px var(--accent);
+}
+.container {
+  border: 2px solid var(--dark-Primary);
+  background: var(--light-primary);
+  width: 80%;
+  margin: 10px auto;
+  padding: 15px;
+  border: 2px solid greenyellow;
+  max-width: 1200px;
+}
+
+body {
+  background: #212121;
+  color: aliceblue;
+  line-height: 1.5;
+  font-size: 15px;
+}
+nav {
+  text-align: center;
+  padding: 15px;
+  border-radius: 20;
+  background: nar(--primary);
+  color: white;
+}
+aside {
+  color: #000;
+  width: 20%;
+  margin: 10px;
+  float: right;
+  min-height: 100px;
+  border: 2px solid rgb(247, 255, 247);
+  background: #f2d49b;
+}
+
+figure {
+  clear: both;
+  width: 40%;
+  margin: 10px;
+  float: left;
+  border: 2px solid rgb(255, 255, 255);
+  background: #f2d49b;
+  padding: 15px;
+}
+
+main {
+  background: var(--primary);
+  width: 95%;
+  margin: 10px auto;
+  border: 2px solid #000000;
+  color: rgb(255, 255, 255);
+  overflow: auto;
+}
+
+footer {
+  clear: both;
+  border: 2px solid var(--dark-Primary);
+  color: var(--dark_text);
+}
+
+nav a {
+  color: ivory;
+  text-decoration: none;
+  margin-left: 20px;
+  padding: 10px 20px;
+  border: 2px solid;
+  background: #f2d49b;
+  border-radius: 20px;
+  color: black;
+  font-weight: bold;
+  font-family: "Nosifer", sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 10px;
+  background-color: #000;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: #000;
+  text-align: center;
+  padding: 20px 0;
+  cursor: pointer;
+}
+img {
+  margin: 10px auto;
+  width: 80%;
+  display: block;
+}
+#main-image {
+  width: 60%;
+  margin: 10px auto;
+}
