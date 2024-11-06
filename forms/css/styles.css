@@ -1,45 +1,29 @@
-:root {
-  --dark-Primary: #388e3c;
-  --light-primary: #c8e6c9;
-  --primary: #4caf50;
-  --light_text: #fffff;
-  --accent: #8bc34a9;
-  --dark_text: #212121;
-  --head_font: Gaegu;
-  --p_font: sofadi-one;
-}
-
-/*
-dark primary= #222226
-dark secondary= #8C7737
-background = #F2D49B
-medium primary = #8C625E
-medium primary = #D5D2D9
-light text= white
-dark text= black
-*/
-
 .sofadi-one-regular,
 p,
-a,
-dd {
-  font-family: var(--p_font);
-  color: var(--light_text);
+label {
+  font-family: "Sofadi One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #000;
 }
+
 .gaegu-regular,
 h1,
 h2,
 h3 {
-  font-family: var(--head_font);
-  color: var(--dark_text);
+  font-family: "Gaegu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000;
 }
 header {
-  color: var(--dark-Primary);
-  border: 2px var(--accent);
+  color: rgb(255, 239, 216);
+  border: 2px #222226;
+  background: #8c7737;
 }
 .container {
-  border: 2px solid var(--dark-Primary);
-  background: var(--light-primary);
+  border: 2px solid rgb(215, 255, 121);
+  background: #222226;
   width: 80%;
   margin: 10px auto;
   padding: 15px;
@@ -51,7 +35,7 @@ nav {
   text-align: center;
   padding: 15px;
   border-radius: 20;
-  background: nar(--primary);
+  background: #8c625e;
   color: white;
 }
 aside {
@@ -75,7 +59,7 @@ figure {
 }
 
 main {
-  background: var(--primary);
+  background: #8c625e;
   width: 95%;
   margin: 10px auto;
   border: 2px solid #000000;
@@ -85,8 +69,8 @@ main {
 
 footer {
   clear: both;
-  border: 2px solid var(--dark-Primary);
-  color: var(--dark_text);
+  border: 2px solid blanchedalmond;
+  color: aquamarine;
 }
 
 nav a {
@@ -100,4 +84,19 @@ nav a {
   color: black;
   font-weight: bold;
   font-family: "Nosifer", sans-serif;
+}
+.eighty {
+  width: 80%;
+  margin: 10px auto;
+  display: block;
+}
+
+.fifty {
+  width: 50%;
+  margin: 10px auto;
+  display: block;
+}
+
+input[type="range"] {
+  color: #7faf41;
 }

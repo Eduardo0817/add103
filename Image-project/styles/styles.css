@@ -9,16 +9,6 @@
   --p_font: sofadi-one;
 }
 
-/*
-dark primary= #222226
-dark secondary= #8C7737
-background = #F2D49B
-medium primary = #8C625E
-medium primary = #D5D2D9
-light text= white
-dark text= black
-*/
-
 .sofadi-one-regular,
 p,
 a,
@@ -99,5 +89,6 @@ nav a {
   border-radius: 20px;
   color: black;
   font-weight: bold;
-  font-family: "Nosifer", sans-serif;
+  font-family: var(--head_font);
+  font-size: larger;
 }

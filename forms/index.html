@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Forms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Gaegu&display=swap"
+      rel="stylesheet"
+    />
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Forms</h1>
+      </header>
+      <main>
+        <h2>Name form</h2>
+        <style>
+          input[type="text"] {
+            border: 2px solid #b1c559;
+            border-radius: 4px;
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+          }
+          input[type="text"]:focus {
+            border: 3px solid #6c9256;
+          }
+
+          input[type="color"] {
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: none;
+            background-color: #8fa334;
+            color: white;
+          }
+        </style>
+
+        <form action="/action_page.php">
+          <label for="fname">First name:</label><br />
+          <input type="text" id="fname" name="fname" /><br />
+          <label for="lname">Last name:</label><br />
+          <input type="text" id="lname" name="lname" /><br /><br />
+
+          <h2>Checkboxes</h2>
+          <p><strong>Types of Gum you Like!</strong> Click what applies:</p>
+
+          <input type="checkbox" id="Gum1" name="Gum_1" value="Mint gum" />
+          <label for="Gum-Mint">Mint Gum</label><br />
+          <input type="checkbox" id="Gum2" name="Gum_2" value="Sour Gum" />
+          <label for="Gum-Sour">Sour Gum</label><br />
+          <input type="checkbox" id="Gum3" name="Gum_3" value="Fruity Gum" />
+          <label for="Gum-Fruity">Fruity Gum</label><br /><br />
+
+          <h2>Range Field</h2>
+
+          <label for="vol"
+            >How often do you chew gum?(Very little to A lot):</label
+          >
+          <input type="range" id="chew" name="chew" min="0" max="50" />
+
+          <h2>Color picker</h2>
+
+          <label for="favcolor">What color is mint gum to you?:</label>
+          <input type="color" id="gumcolor" name="gumcolor" value="#ffffff" />
+
+          <h2>Radio Buttons</h2>
+
+          <p>Choose your favorite Music Genre:</p>
+
+            <input type="radio" id="Rap" name="fav_genre" value="Rap" />  
+          <label for="Rap">Rap</label><br />
+            <input type="radio" id="Rock" name="fav_genre" value="Rock" />  
+          <label for="Rock">Rock</label><br />
+            <input type="radio" id="Indie" name="fav_genre" value="Indie" />  
+          <label for="Indie">Indie</label><br /><br />
+
+          <input type="submit" value="Submit" />
+        </form>
+      </main>
+      <footer>
+        <p></p>
+      </footer>
+    </div>
+  </body>
+</html>
