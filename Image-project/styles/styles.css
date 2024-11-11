@@ -1,28 +1,33 @@
 :root {
-  --dark-Primary: #388e3c;
-  --light-primary: #c8e6c9;
-  --primary: #4caf50;
-  --light_text: #fffff;
-  --accent: #8bc34a9;
+  --dark-Primary: #00796b;
+  --light-primary: #b2dfdb;
+  --primary: #009688;
+  --light_text: #ffffff;
+  --accent: #607d8b;
   --dark_text: #212121;
-  --head_font: Gaegu;
-  --p_font: sofadi-one;
+  --head_font: "Gaegu", serif;
+  --p_font: "Sofadi One", serif;
 }
 
 .sofadi-one-regular,
-p,
 a,
+p,
 dd {
   font-family: var(--p_font);
-  color: var(--light_text);
+  font-weight: 400;
+  font-style: normal;
+  color: var(--dark_text);
 }
 .gaegu-regular,
 h1,
 h2,
 h3 {
   font-family: var(--head_font);
+  font-weight: 400;
+  font-style: normal;
   color: var(--dark_text);
 }
+
 header {
   color: var(--dark-Primary);
   border: 2px var(--accent);
@@ -35,14 +40,15 @@ header {
   padding: 15px;
   min-height: 1000px;
   max-width: 1200px;
+  font-family: var(--p_font);
 }
 
 nav {
   text-align: center;
   padding: 15px;
   border-radius: 20;
-  background: nar(--primary);
-  color: white;
+
+  color: var(--accent);
 }
 aside {
   color: #000;
@@ -51,7 +57,7 @@ aside {
   float: right;
   min-height: 100px;
   border: 2px solid rgb(247, 255, 247);
-  background: #f2d49b;
+  background: var(--accent);
 }
 
 figure {
@@ -60,7 +66,7 @@ figure {
   margin: 10px;
   float: left;
   border: 2px solid rgb(255, 255, 255);
-  background: #f2d49b;
+  background: var(--accent);
   padding: 15px;
 }
 
@@ -71,6 +77,7 @@ main {
   border: 2px solid #000000;
   color: rgb(255, 255, 255);
   overflow: auto;
+  font-family: var(--p_font);
 }
 
 footer {
@@ -85,10 +92,48 @@ nav a {
   margin-left: 20px;
   padding: 10px 20px;
   border: 2px solid;
-  background: #f2d49b;
+  background: var(--accent);
   border-radius: 20px;
   color: black;
   font-weight: bold;
   font-family: var(--head_font);
   font-size: larger;
+}
+
+nav a:hover {
+  color: var(--light-primary);
+  background: var(--primary);
+}
+
+main p {
+  font-family: var(--p_font);
+  font-size: large;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 10px;
+  background-color: #000;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: #000;
+  text-align: center;
+  padding: 20px 0;
+  cursor: pointer;
+}
+img {
+  margin: 10px auto;
+  width: 80%;
+  display: block;
+}
+#main-image {
+  width: 60%;
+  margin: 10px auto;
+}
+
+.kitty {
+  width: 60%;
+  display: block;
 }
