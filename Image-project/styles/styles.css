@@ -16,7 +16,8 @@ dd {
   font-family: var(--p_font);
   font-weight: 400;
   font-style: normal;
-  color: var(--dark_text);
+  color: var(--light_text);
+  padding: 15px;
 }
 .gaegu-regular,
 h1,
@@ -26,6 +27,7 @@ h3 {
   font-weight: 400;
   font-style: normal;
   color: var(--dark_text);
+  text-align: center;
 }
 
 header {
