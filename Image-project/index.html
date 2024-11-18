@@ -5,34 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/styles.css" />
     <title>Image Project</title>
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Gaegu&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Gaegu&family=Sofadi+One&display=swap"
       rel="stylesheet"
-    />
     />
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>Header</h1>
+        <h1>A sudden trip</h1>
         <nav>
-          <a href="">link 1</a>
-          <a href="">link 2</a>
-          <a href="">link 3</a>
-          <a href="">link 4</a>
-          <a href="">link 5</a>
+          <a href="#">NewYork</a>
+          <a href="Pages/Digital.html">Digital Photo</a>
+          <a href="Pages/memories.html">Memories</a>
+          <a href="Pages/Pokemon.html">Pokemon</a>
+          <a href="Pages/cat.html">Cat</a>
         </nav>
       </header>
       <main>
-        <h2>Main</h2>
-        <aside>
-          <h2>Aside</h2>
-        </aside>
-        <figure></figure>
+        <h2>NewYork</h2>
+        <p>
+          About a Year ago, me and my family went to Newyork. We left on a
+          Thursday and came back on a Monday morning. We went to go see Niagra
+          falls and then we went to see the statue of Liberty. The whole trip
+          was fun and dreadful. It felt like an eternity when we were on our way
+          to Newyork and when we were coming back. During our first stop at
+          Niagra falls, me and my family went on a boat that takes you close to
+          the waterfalls and gets you all wet. It was very windy, fun, and
+          beautiful. We only stayed there for about a day and a half. While I
+          was there to see the statue, I went to time square, and I also saw the
+          empire building. The whole place was crowded with people and cars, not
+          as loud as I thought it would be. It was very nice in the city and
+          some buildings were way bigger than I thought. I also went to a
+          Nintendo store there. Once me and my brothers heard that there was one
+          in the city, we immediately went straight for it. Once I got there, I
+          ended up buying a Sprigatitio keychain and a animal crossing cat
+          plushie. The whole trip was fun but slow and unexpected, I almost
+          didn't go. I also didn't tell my friends I went on this trip and when
+          I missed school, they all assumed I was sick, and they were shocked to
+          hear that I randomly just went to Newyork during the week. Teehee
+        </p>
+        <div class="grid-container">
+          <div>
+            <img
+              src="images/waterfall.jpeg"
+              alt="Niagra falls"
+              id="img1"
+              onclick='change("images/waterfall.jpeg")'
+            />
+          </div>
+          <div>
+            <img
+              src="images/timesquare.jpeg"
+              alt="Time square"
+              id="img2"
+              onclick='change("images/timesquare.jpeg")'
+            />
+          </div>
+          <div>
+            <img
+              src="images/empire.jpeg"
+              alt="empire state building"
+              id="img3"
+              onclick='change("images/empire.jpeg")'
+            />
+          </div>
+          <div>
+            <img
+              src="images/liberty.jpeg"
+              alt="Statue of Liberty"
+              id="img4"
+              onclick='change("images/liberty.jpeg")'
+            />
+          </div>
+          <div>
+            <img
+              src="images/luigi.jpeg"
+              alt="luigi"
+              id="img5"
+              onclick='change("images/luigi.jpeg")'
+            />
+          </div>
+        </div>
+        <div id="main-image">
+          <img src="images/waterfall.jpeg" alt="waterfall" id="large" />
+        </div>
       </main>
+      <script src="script.js"></script>
+
       <footer>
         <p>&copy 2024 Eduardo Soto-Gonzalez</p>
       </footer>

@@ -129,11 +129,66 @@ img {
   display: block;
 }
 #main-image {
-  width: 60%;
+  width: 90%;
   margin: 10px auto;
 }
 
 .kitty {
-  width: 60%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: var(--dark-primary);
+  padding: 10px;
+  width: 100%;
+}
+.kitty > div {
+  background-color: var(--dark-primary);
+  text-align: center;
+  padding: 20px 0;
+}
+
+.kitty > div > img {
+  width: 90%;
+  margin: 10px auto;
+  display: block;
+}
+
+.poke {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 10px;
+  background-color: black;
+  padding: 10px;
+  width: 100%;
+}
+.poke > div {
+  background-color: black;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.poke > div > img {
+  width: 90%;
+  margin: 10px auto;
+  display: block;
+}
+
+.memo {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 10px;
+  background-color: var(--accent);
+  padding: 10px;
+  width: 100%;
+}
+.memo > div {
+  background-color: #000;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.memo > div > img {
+  width: 90%;
+  margin: 10px auto;
   display: block;
 }
