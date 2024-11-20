@@ -1,0 +1,27 @@
+body {
+  background: rgb(255, 255, 255);
+}
+
+.container-fluid {
+  background-color: rgb(82, 128, 100);
+  color: aliceblue;
+  min-height: 50px;
+  margin-bottom: 20px;
+}
+.container-fluid h1 {
+  text-align: center;
+  color: aliceblue;
+}
+
+.container,
+.container-lg {
+  background: rgb(65, 100, 70);
+  color: rgb(255, 255, 255);
+}
+nav a {
+  border: 20px;
+  border-radius: 20px;
+  background-color: aliceblue;
+  text-align: center;
+  padding: 10px;
+}
