@@ -13,15 +13,28 @@ body {
   color: aliceblue;
 }
 
-.container,
+body > .container,
 .container-lg {
   background: rgb(65, 100, 70);
   color: rgb(255, 255, 255);
 }
 nav a {
-  border: 20px;
+  border: 40px;
   border-radius: 20px;
+  border-color: aliceblue;
   background-color: aliceblue;
   text-align: center;
   padding: 10px;
+}
+
+.nav-link {
+  padding: 10px;
+  background-color: rgb(237, 250, 238);
+  cursor: pointer;
+  color: black;
+}
+
+nav {
+  background-color: rgb(215, 247, 208);
+  background-position: 100px;
 }

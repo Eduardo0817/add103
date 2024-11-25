@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <header class="container-fluid">
+      <h1 class="display-1">Learning bootstrap</h1>
+      <div class="container2 mt-3">
+        <nav>
+          <ul class="nav nav-tabs flex-row-reverse justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Java</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Nav.html">Nav</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tables.html">Tables</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="images.html">images</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <h2 class="display-2">JavaScript tools in Bootstrap</h2>
+      <h2>Tooltip</h2>
+      <p>Hover over Mr.Button to make them Happy!</p>
+      <button type="button" class="btn btn-primary" title="Wow, so cool!">
+        Look at Me! ;)
+      </button>
+
+      <div class="offcanvas offcanvas-start" id="offcanvasDemo">
+        <div class="offcanvas-header">
+          <h1 class="offcanvas-title">This is a sidebar</h1>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
+            magnam maiores reiciendis quisquam necessitatibus labore, autem
+            nesciunt, libero voluptate, iusto deserunt ullam provident
+            consequatur excepturi? At omnis nihil voluptatem delectus.
+          </p>
+          <button type="button" class="btn btn-primary" title="We meet again!">
+            look over me
+          </button>
+        </div>
+      </div>
+      <div class="container mt-3">
+        <h2>Simple Collapsible</h2>
+        <p>Click on Mrs.Button, she has some nice words for you!.</p>
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-bs-toggle="collapse"
+          data-bs-target="#demo"
+        >
+          Please press me!
+        </button>
+        <div id="demo" class="collapse">You look nice today :D teehee</div>
+      </div>
+      <div class="container-fluid mt-3">
+        <h3>Offcanvas Sidebar</h3>
+        <p>The side bar, with a little someone</p>
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDemo"
+        >
+          Open Offcanvas Sidebar
+        </button>
+      </div>
+      <h2>Carousel</h2>
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide-to="2"
+          ></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="../images/toby_sleep.jpg"
+              alt="Cat"
+              class="d-block"
+              style="width: 70%"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../images/Soto_A03_selects-9633.jpg"
+              alt="Xime"
+              class="d-block"
+              style="width: 70%"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../images/Soto_export-9877.jpg"
+              alt="Baby Leo"
+              class="d-block"
+              style="width: 70%"
+            />
+          </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </main>
+  </body>
+</html>
